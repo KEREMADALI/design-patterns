@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public abstract class Customer {
 
+  // Here is the  bridge
   protected final CreditCard card;
 
   protected abstract String getCustomerType();
